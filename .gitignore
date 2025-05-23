@@ -1,0 +1,32 @@
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore crash logs
+crash.log
+
+# Ignore .terraform directory (plugin, module caches)
+.terraform/
+
+# Ignore override files
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore plan files
+*.tfplan
+
+# Ignore lock file (optional, if you want reproducible builds, keep it)
+.terraform.lock.hcl
+
+# Ignore local .idea or editor files
+*.swp
+*.bak
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
